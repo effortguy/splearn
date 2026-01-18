@@ -1,5 +1,5 @@
 # 1. 베이스 이미지 설정 (자바 17 설치된 가벼운 리눅스)
-FROM eclipse-temurin:17-jdk-alpine
+FROM amazoncorretto:17-alpine-jdk
 
 # 2. 작업 디렉토리 설정
 WORKDIR /app
